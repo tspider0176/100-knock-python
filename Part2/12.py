@@ -22,4 +22,3 @@ print 'OK' if commands.getoutput('diff out1 col1.txt') == '' else 'NG'
 print 'OK' if commands.getoutput('diff out2 col2.txt') == '' else 'NG'
 
 os.system('rm -rf out1 && rm -rf out2')
-os.system('rm -rf col1.txt && rm -rf col2.txt')
