@@ -15,4 +15,5 @@ for line in lines:
 
 for line in bri.split("\n"):
     if re.match(r"==+.*==+", line):
+        #TODO use reg
         print line.replace("=", "") + "\tlevel: " + str(line.count("=") / 2 - 1)
