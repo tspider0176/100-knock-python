@@ -15,4 +15,5 @@ for line in lines:
 
 for line in bri.split("\n"):
     if u"ファイル" in line:
+        # TODO modify reg
         print re.search(r":(.*)\.(\w*)", line).group(0)
